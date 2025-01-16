@@ -1,0 +1,27 @@
+--cpu Cortex-M0
+"stutech_proj_vez_vaszon\startup_stm32f030x6.o"
+"stutech_proj_vez_vaszon\fonts.o"
+"stutech_proj_vez_vaszon\ssd1306.o"
+"stutech_proj_vez_vaszon\main.o"
+"stutech_proj_vez_vaszon\stm32f0xx_it.o"
+"stutech_proj_vez_vaszon\stm32f0xx_hal_msp.o"
+"stutech_proj_vez_vaszon\stm32f0xx_hal_i2c.o"
+"stutech_proj_vez_vaszon\stm32f0xx_hal_i2c_ex.o"
+"stutech_proj_vez_vaszon\stm32f0xx_hal_rcc.o"
+"stutech_proj_vez_vaszon\stm32f0xx_hal_rcc_ex.o"
+"stutech_proj_vez_vaszon\stm32f0xx_hal.o"
+"stutech_proj_vez_vaszon\stm32f0xx_hal_gpio.o"
+"stutech_proj_vez_vaszon\stm32f0xx_hal_dma.o"
+"stutech_proj_vez_vaszon\stm32f0xx_hal_cortex.o"
+"stutech_proj_vez_vaszon\stm32f0xx_hal_pwr.o"
+"stutech_proj_vez_vaszon\stm32f0xx_hal_pwr_ex.o"
+"stutech_proj_vez_vaszon\stm32f0xx_hal_flash.o"
+"stutech_proj_vez_vaszon\stm32f0xx_hal_flash_ex.o"
+"stutech_proj_vez_vaszon\stm32f0xx_hal_exti.o"
+"stutech_proj_vez_vaszon\stm32f0xx_hal_tim.o"
+"stutech_proj_vez_vaszon\stm32f0xx_hal_tim_ex.o"
+"stutech_proj_vez_vaszon\system_stm32f0xx.o"
+--library_type=microlib --strict --scatter "stutech_proj_vez_vaszon\stutech_proj_vez_vaszon.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "stutech_proj_vez_vaszon.map" -o stutech_proj_vez_vaszon\stutech_proj_vez_vaszon.axf
